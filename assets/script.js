@@ -87,9 +87,8 @@ $(document).ready(function(){
         let mensagem;
 
         switch(texto){
-            case "9/8": titulo = "09 de Agosto de 2021"; mensagem = "<p>O dia em que nós conhecemos, esse dia foi tao especial.</p>";break;
-            case "16/9": titulo = "16 de Outubro de 2022"; mensagem = "<p>Aqui foi quando voce me pediu em namoro, eu chorei de tanta felicidade.</p>";break;
-            case "final": titulo = "31 de Dezembro de 2023"; mensagem = "<section class='text-center mt-5 mb-5'><p><strong>O dia em que ela disse<br><span class='letra2 letra-vermelha'>SIM</span></strong></p></section>";break;
+            case "03/03": titulo = "03 de Março de 2025"; mensagem = "<p>O dia em que nós conhecemos, esse dia foi tao especial.</p>";break;
+            case "final": titulo = "17 de Março de 2025"; mensagem = "<section class='text-center mt-5 mb-5'><p><strong>O dia em que ela disse<br><span class='letra2 letra-vermelha'>SIM</span></strong></p></section>";break;
         }
 
         mostraPopUp(true, titulo, mensagem);
