@@ -101,7 +101,7 @@ $(document).ready(function(){
 
 let telaFinal = false;
 
-const mostraPopUp = (mostrar, titulo = "Título de testes", mensagem = "Mensagem de teste...") =>{
+const mostraPopUp = (mostrar, titulo = "17 de Março de 2025", mensagem = "<section class='text-center mt-5 mb-5'><p><strong>O dia em que ela disse<br><span class='letra2 letra-vermelha'>SIM</span></strong></p></section>") =>{
 
     if(mostrar){
         $("html, body").animate({ scrollTop: $(".pop-up")[0].offsetTop }, "smooth");
