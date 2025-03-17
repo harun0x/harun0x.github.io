@@ -87,7 +87,7 @@ $(document).ready(function(){
         let mensagem;
 
         switch(texto){
-            case "03/03": titulo = "03 de Março de 2025"; mensagem = "<p>O dia em que nós conhecemos, esse dia foi tao especial.</p>";break;
+            case "03/03": titulo = "03 de Março de 2025"; mensagem = "<p>O dia em que nos conhecemos, esse dia foi tao especial.</p>";break;
             case "17/03": titulo = "17 de Março de 2025"; mensagem = "<section class='text-center mt-5 mb-5'><p><strong>O dia em que ela disse<br><span class='letra2 letra-vermelha'>SIM</span></strong></p></section>";break;
         }
 
